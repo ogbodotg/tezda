@@ -27,6 +27,7 @@ class _FavouritesState extends State<Favourites> {
     productProvider.fetchFavs();
 
     products = productProvider.favouriteProducts;
+    setState(() {});
 
     return Scaffold(
       backgroundColor: Colors.white,
